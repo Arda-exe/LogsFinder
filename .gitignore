@@ -1,0 +1,13 @@
+# PyInstaller build output (the exe is shipped via GitHub Releases, not git)
+build/
+dist/
+release/
+*.spec
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Personal app settings (never commit a user's saved folder, etc.)
+settings.json
